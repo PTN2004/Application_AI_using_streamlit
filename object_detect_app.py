@@ -3,8 +3,8 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 from io import BytesIO
-MODEL = "T:\Documnets\AIO\AIO_2024\model\MobileNetSSD_deploy.caffemodel"
-PROTOTXT = "T:\Documnets\AIO\AIO_2024\model\MobileNetSSD_deploy.prototxt.txt"
+MODEL = "model/MobileNetSSD_deploy.caffemodel"
+PROTOTXT = "model/MobileNetSSD_deploy.prototxt.txt"
 
 
 def process_image(image):
